@@ -14,7 +14,7 @@ ami_filters = [
 
 # EC2
 instance_type = "t3.micro"
-key_name      = "BANDI"
+key_name      = "GJ-project"
 
 # ssh sg
 ssh_sg_description      = "SSH Security group for Bastion EC2 instance"
