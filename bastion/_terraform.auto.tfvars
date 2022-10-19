@@ -1,6 +1,6 @@
 env   = "dev"
 name  = "bastion"
-owner = "taepark"
+owner = "bandi"
 tags  = {}
 
 # AMI
@@ -14,11 +14,11 @@ ami_filters = [
 
 # EC2
 instance_type = "t3.micro"
-key_name      = "GJ-project"
+key_name      = "BANDI"
 
 # ssh sg
 ssh_sg_description      = "SSH Security group for Bastion EC2 instance"
-ssh_ingress_cidr_blocks = ["27.115.164.44/32"]
+ssh_ingress_cidr_blocks = ["115.95.222.202/32"]
 ssh_ingress_rules       = ["ssh-tcp"]
 ssh_egress_rules        = ["all-all"]
 
