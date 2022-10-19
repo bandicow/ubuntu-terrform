@@ -1,6 +1,6 @@
 env   = "dev"
 name  = "jenkins"
-owner = "taepark"
+owner = "bandi"
 tags  = {}
 
 jenkins_key = "dev/apne2/ec2/jenkins/terraform.tfstate"
